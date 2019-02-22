@@ -1,6 +1,6 @@
 {
   "name": "emoji-migration-bot",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Bot Which Will help You To Migrate Your Emojis From One Server to another",
   "main": "src/index.js",
   "repository": "https://github.com/ionadev/emoji-migration-discord.git",
