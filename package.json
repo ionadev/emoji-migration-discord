@@ -1,0 +1,17 @@
+{
+  "name": "emoji-migration-bot",
+  "version": "0.1.0",
+  "description": "A Bot Which Will help You To Migrate Your Emojis From One Server to another",
+  "main": "src/index.js",
+  "repository": "https://github.com/ionadev/emoji-migration-discord.git",
+  "author": "Piyush Bhangale",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "eslint ./"
+  },
+  "dependencies": {
+    "discord.js": "discordjs/discord.js#73be952406e54cb7626bc0f07085a32b7462126c"
+  }
+}

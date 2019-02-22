@@ -1,0 +1,23 @@
+{
+    "name": "Emoji Migration Bot",
+    "description": "A Bot To Migrate Emojis From One Server to another.",
+    "repository": "https://github.com/ionadev/emoji-migration-discord",
+    "env": {
+        "token": {
+            "description": "Your discord bot's token.",
+            "required": true
+        },
+        "prefix": {
+            "description": "The Prefix for your bot!",
+            "required": true
+        },
+        "main_guild_id": {
+            "description": "The ID Of Guild From Where You Have To migrate Emotes.",
+            "required": true
+        },
+        "final_guild_id": {
+            "description": "The ID Of Guild To Where You Have To migrate Emotes.",
+            "required": true
+        }
+    }
+}
