@@ -12,6 +12,6 @@
     "test": "eslint ./"
   },
   "dependencies": {
-    "discord.js": "discordjs/discord.js#73be952406e54cb7626bc0f07085a32b7462126c"
+    "discord.js": "12.2.2"
   }
 }
