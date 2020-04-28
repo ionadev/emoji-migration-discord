@@ -18,12 +18,12 @@ client.on('ready', () => {
 client.on('message', async msg => {
     if (msg.content.startsWith(config.prefix + "import")) {
         try {
-            const oldGuild = await client.guilds.get(config.main_guild_id);
-            const newGuild = await client.guilds.get(config.final_guild_id);
+            const oldGuild = await client.guilds.cache.get(config.main_guild_id);
+            const newGuild = await client.guilds.cache.get(config.final_guild_id);
             console.log(oldGuild.name, newGuild.name);
-            await oldGuild.emojis.map(async e => {
+            await oldGuild.emojis.cache.forEach(async e => {
                 await newGuild.emojis.create(e.url, e.name);
-                await msg.channel.send(`Created **{e.name}** Emote`);
+                await msg.channel.send(`Created **${e.name}** Emote ${e}`);
             })
 
             return msg.channel.send(`Created Emotes.`);
