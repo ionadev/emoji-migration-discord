@@ -79,6 +79,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [Discord](https://github.com/discordjs/discord.js) - API For Connecting To Discord.
 
+> The bot is most likely to break because it hasn't been updated for intents
+
 ## Authors
 
 * **Piyush Bhangale** - Initial Work, Idea, Main Contributor, Owner - [ionadev](https://github.com/ionadev)
